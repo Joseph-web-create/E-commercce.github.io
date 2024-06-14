@@ -1,0 +1,43 @@
+*,
+*::before, 
+*::after{
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color:  #152b26;
+    --text-color: #ffaf81;
+    --color: #D4C4A3;
+}
+
+body{
+    background: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid;
+}
+
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header-image img{
+    width: 400px;
+    min-width: 100px;
+}
+
+header h1{
+    color: var(--text-color);
+}
